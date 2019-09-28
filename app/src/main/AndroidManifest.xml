@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.job777.tare5app">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+
+
+
+
+        <meta-data
+                android:name="com.google.android.gms.ads.APPLICATION_ID"
+                android:value="ca-app-pub-7757590907378676~2257972496"/>
+
+
+        <activity android:name=".eleven2">
+        </activity>
+        <activity android:name=".ten2">
+        </activity>
+        <activity android:name=".nine2">
+        </activity>
+        <activity android:name=".yousef8">
+        </activity>
+        <activity android:name=".yousef7">
+        </activity>
+        <activity android:name=".yousef6">
+        </activity>
+        <activity android:name=".yousef5">
+        </activity>
+        <activity android:name=".youssef4">
+        </activity>
+        <activity android:name=".yousef3">
+        </activity>
+        <activity android:name=".yousef2">
+        </activity>
+        <activity android:name=".yousef">
+        </activity>
+        <activity android:name=".eight2">
+        </activity>
+        <activity android:name=".seven2">
+        </activity>
+        <activity android:name=".six2">
+        </activity>
+        <activity android:name=".five2">
+        </activity>
+        <activity android:name=".four2">
+        </activity>
+        <activity android:name=".f2">
+        </activity>
+        <activity android:name=".f">
+        </activity>
+        <activity android:name=".eleve">
+        </activity>
+        <activity android:name=".ten">
+        </activity>
+        <activity android:name=".nine">
+        </activity>
+        <activity android:name=".eight">
+        </activity>
+        <activity android:name=".seven">
+        </activity>
+        <activity android:name=".six">
+        </activity>
+        <activity android:name=".five">
+        </activity>
+        <activity android:name=".four">
+        </activity>
+        <activity android:name=".third">
+        </activity>
+        <activity android:name=".second">
+        </activity>
+        <activity android:name=".MainActivity"     android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"
+
+
+
+                />
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

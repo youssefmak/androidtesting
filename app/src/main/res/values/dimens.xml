@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <dimen name="startw">246dp</dimen>
+    <dimen name="starth">115dp</dimen>
+    <dimen name="thirdw">214dp</dimen>
+    <dimen name="thirdh">101dp</dimen>
+    <dimen name="textsize">30sp</dimen>
+
+
+    <dimen name="btn_que_width">180dp</dimen>
+    <dimen name="btn_que_height">60dp</dimen>
+    <dimen name="btn_rate_width">180dp</dimen>
+    <dimen name="btn_rate_height">60dp</dimen>
+    <dimen name="text_que">30sp</dimen>
+    <dimen name="text_rate">30sp</dimen>
+    <dimen name="txtxx">25sp</dimen>
+    <dimen name="txtyy">25sp</dimen>
+    <dimen name="btnsound">60dp</dimen>
+    <dimen name="btnsoundheight">50dp</dimen>
+    <dimen name="txtquessize">20sp</dimen>
+    <dimen name="txtforanswersize">24sp</dimen>
+    <dimen name="btnsoundmargin">10dp</dimen>
+    <dimen name="btn1">60dp</dimen>
+    <dimen name="btn1heught">60dp</dimen>
+    <dimen name="btn1margin">10dp</dimen>
+    <dimen name="btn2w">60dp</dimen>
+    <dimen name="btn2height">60dp</dimen>
+    <dimen name="btn3w">60dp</dimen>
+    <dimen name="btn3height">60dp</dimen>
+    <dimen name="btn3margin">10dp</dimen>
+    <dimen name="b1margintop">50dp</dimen>
+    <dimen name="b2margintop">120dp</dimen>
+    <dimen name="b3margintop">15dp</dimen>
+    <dimen name="b4margintop">90dp</dimen>
+    <dimen name="b5margintop">160dp</dimen>
+    <dimen name="b6margintop">230dp</dimen>
+    <dimen name="b7margintop">300dp</dimen>
+    <dimen name="b8margintop">370dp</dimen>
+
+
+
+
+
+
+
+
+</resources>

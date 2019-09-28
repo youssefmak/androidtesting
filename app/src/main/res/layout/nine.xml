@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".nine" android:orientation="vertical"
+        android:weightSum="100"
+        android:background="@drawable/q7"
+>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:weightSum="8"
+                  android:gravity="center"
+                  android:background="@color/white"
+    >
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:id="@+id/tv1"
+                  android:text="XX/"
+                  android:textSize="@dimen/txtxx"
+                  android:textColor="@color/black"
+
+        />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:id="@+id/tv2"
+                  android:text="YY"
+                  android:textSize="@dimen/txtyy"
+                  android:textColor="@color/red"
+        />
+        "
+
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="0dp"
+                  android:layout_weight="20">
+
+        <Button android:layout_width="@dimen/btnsound" android:layout_height="@dimen/btnsoundheight"
+                android:id="@+id/btn1"
+                android:background="@drawable/iii"
+                android:layout_marginTop="@dimen/btnsoundmargin"
+        />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="  question  "
+                  android:id="@+id/tvques"
+                  android:textSize="@dimen/txtquessize"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginLeft="10dp"
+                  android:textColor="@color/white"/>
+
+
+        />
+
+    </LinearLayout>
+
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="0dp"
+                  android:layout_weight="60"
+                  android:orientation="vertical"
+    >
+        <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:layout_weight="60"
+        >
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="vertical">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:text="press A for answer"
+                          android:textSize="@dimen/txtforanswersize"
+                          android:textColor="@android:color/holo_orange_light"
+                          android:id="@+id/tvans"
+                          android:layout_marginLeft="15dp"
+                          android:gravity="center"/>
+            </LinearLayout>
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="0dp"
+                  android:gravity="center"
+                  android:layout_weight="20"
+                  android:orientation="horizontal"
+
+                  android:background="@drawable/btndesign2"
+    >
+        <Button android:layout_width="@dimen/btn1" android:layout_height="@dimen/btn1heught"
+
+                android:background="@drawable/lleft"
+
+                android:layout_margin="@dimen/btn1margin"
+                android:onClick="action"
+                tools:ignore="onclick"
+
+                android:id="@+id/br"/>
+        <Button android:layout_width="@dimen/btn2w" android:layout_height="@dimen/btn2height"
+                android:background="@drawable/state_answer"
+
+                android:onClick="action"
+                tools:ignore="onclick"
+
+                android:id="@+id/bm"/>
+        <Button android:layout_width="@dimen/btn3w" android:layout_height="@dimen/btn3height"
+                android:background="@drawable/rright"
+
+
+                android:layout_margin="@dimen/btn3margin"
+                android:onClick="action"
+                tools:ignore="onclick"
+
+
+                android:id="@+id/bl"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

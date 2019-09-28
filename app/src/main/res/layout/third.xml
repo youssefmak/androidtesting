@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".third" android:background="@drawable/phyzya3" android:orientation="vertical">
+    <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-7757590907378676/5049633277" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp">
+    </com.google.android.gms.ads.AdView>
+    <Button
+            android:text="الجزء الاول"
+            android:layout_width="202dp"
+            android:layout_height="98dp"
+            android:id="@+id/button2"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="104dp" android:layout_marginStart="82dp" android:textColor="@color/white"
+            android:textSize="30sp" android:background="@drawable/btndesign" android:layout_marginTop="128dp"
+            app:layout_constraintTop_toBottomOf="@+id/adView"/>
+    <Button
+            android:text="الجزء الثاني"
+            android:layout_width="222dp"
+            android:layout_height="99dp"
+            android:id="@+id/button3"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="104dp" android:layout_marginStart="82dp" android:textColor="@color/white"
+            android:textSize="30sp" android:background="@drawable/btndesign"
+            android:layout_marginTop="48dp" app:layout_constraintTop_toBottomOf="@+id/button2"
+    />
+    <Button
+            android:text="انضم للجروب"
+            android:layout_width="222dp"
+            android:layout_height="113dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="104dp" android:layout_marginStart="82dp" android:textColor="@color/white"
+            android:textSize="30sp" android:background="@drawable/btndesign"
+            android:id="@+id/p" android:layout_marginTop="48dp" app:layout_constraintTop_toBottomOf="@+id/button3"/>
+
+</android.support.constraint.ConstraintLayout>

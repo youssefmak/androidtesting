@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <item name="activity_mai" type="layout" tools:ignore="MissingDefaultResource">@layout/activity_main</item>
+    <item name="secon" type="layout" tools:ignore="MissingDefaultResource">@layout/second</item>
+    <item name="thir" type="layout" tools:ignore="MissingDefaultResource">@layout/third</item>
+    <item name="fou" type="layout" tools:ignore="MissingDefaultResource">@layout/four</item>
+    <item name="fiv" type="layout" tools:ignore="MissingDefaultResource">@layout/five</item>
+    <item name="SI" type="layout" tools:ignore="MissingDefaultResource">@layout/six</item>
+    <item name="seve" type="layout" tools:ignore="MissingDefaultResource">@layout/seven</item>
+
+    <item name="eigh" type="layout" tools:ignore="MissingDefaultResource">@layout/eight</item>
+    <item name="nin" type="layout" tools:ignore="MissingDefaultResource">@layout/nine</item>
+    <item name="te" type="layout" tools:ignore="MissingDefaultResource">@layout/ten</item>
+    <item name="elev" type="layout" tools:ignore="MissingDefaultResource">@layout/eleven</item>
+
+    <item name="fou2" type="layout" tools:ignore="MissingDefaultResource">@layout/four2</item>
+    <item name="fiv2" type="layout" tools:ignore="MissingDefaultResource">@layout/five2</item>
+    <item name="SI2" type="layout" tools:ignore="MissingDefaultResource">@layout/six2</item>
+    <item name="seve2" type="layout" tools:ignore="MissingDefaultResource">@layout/seven2</item>
+
+    <item name="eigh2" type="layout" tools:ignore="MissingDefaultResource">@layout/eight2</item>
+    <item name="nin2" type="layout" tools:ignore="MissingDefaultResource">@layout/nine2</item>
+    <item name="te2" type="layout" tools:ignore="MissingDefaultResource">@layout/ten2</item>
+
+
+    <item name="fx" type="layout" tools:ignore="MissingDefaultResource">@layout/f</item>
+    <item name="fx2" type="layout" tools:ignore="MissingDefaultResource">@layout/f2</item>
+
+
+    <item name="youse" type="layout" tools:ignore="MissingDefaultResource">@layout/activity_yousef</item>
+    <item name="youse2" type="layout" tools:ignore="MissingDefaultResource">@layout/yousef2</item>
+    <item name="youse3" type="layout" tools:ignore="MissingDefaultResource">@layout/yousef3</item>
+    <item name="youse4" type="layout" tools:ignore="MissingDefaultResource">@layout/youssef4</item>
+    <item name="youse5" type="layout" tools:ignore="MissingDefaultResource">@layout/yousef5</item>
+    <item name="youse6" type="layout" tools:ignore="MissingDefaultResource">@layout/yousef6</item>
+    <item name="youse7" type="layout" tools:ignore="MissingDefaultResource">@layout/yousef7</item>
+    <item name="youse8" type="layout" tools:ignore="MissingDefaultResource">@layout/yousef8</item>
+
+
+
+
+
+
+
+
+
+
+
+
+    <dimen name="startw">246dp</dimen>
+    <dimen name="starth">115dp</dimen>
+    <dimen name="thirdw">214dp</dimen>
+    <dimen name="thirdh">101dp</dimen>
+    <dimen name="textsize">30sp</dimen>
+</resources>
